@@ -10,26 +10,50 @@
     <title>Test</title>
 </head>
 
-<body>
-    <div id="container" class=" flex justify-center items-center  w-screen  h-screen bg-gray-800">
-        <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20">
-            <div class="flex justify-center md:justify-end -mt-16">
-                <img class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500"
-                    src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
+<body class="bg-white">
+    <nav class="text-xs flex items-center w-full justify-between fixed text-white flex-wrap  p-6">
+        <div class="flex items-center flex-shrink-0 text-white ml-4">
+            <div class="loader">
+                <div class="outer"></div>
+                <div class="middle"></div>
+                <div class="inner"></div>
+            </div>
+
+        </div>
+        <div class=" block lg:hidden">
+            <button
+                class="flex items-center px-3 py-2 border rounded  border-teal-400 hover:text-blue hover:border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title class="">Menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                </svg>
+            </button>
+        </div>
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto ml-10">
+            <div class="text-lg lg:flex-grow">
+                <a href="#responsive-header"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-blue-300 mr-4">
+                    Docs
+                </a>
+                <a href="#responsive-header"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-blue-300 mr-4">
+                    Examples
+                </a>
+                <a href="#responsive-header"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-blue-300">
+                    Blog
+                </a>
             </div>
             <div>
-                <h2 class="text-gray-800 text-3xl font-semibold">Design Tools</h2>
-                <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores
-                    deserunt
-                    ea
-                    doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur
-                    minus
-                    consequuntur!</p>
-            </div>
-            <div class="flex justify-end mt-4">
-                <a href="#" class="text-xl font-medium text-indigo-500">John Doe</a>
+                <a href="#"
+                    class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-blue-300 hover:text-blue-300  mt-4 lg:mt-0">Contact</a>
             </div>
         </div>
+    </nav>
+
+    <div id="container" class=" flex justify-center items-center  w-screen p-2  h-screen bg-gray-800">
+        <div class="bloc1 w-full h-screen bg-white-400"></div>
+
     </div>
 </body>
 

@@ -1,5 +1,9 @@
 
 
+.bgColorMain{
+  background-color: #171717;
+}
+
 .loader {
   position: relative;
 }
@@ -44,4 +48,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.menuIcon {
+	filter:  brightness(0) invert(1);
+}
+
+.bloc1{
+  background-image: url("../IMAGES/wallpaperBlack.png");
+  background-position: center;
+  background-size: cover;
 }

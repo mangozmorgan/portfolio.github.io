@@ -67,3 +67,7 @@
 .card h2, p{
   filter: inherit;
 }
+  
+.filterDrop{
+  filter: drop-shadow(3px 3px 3px white);
+}

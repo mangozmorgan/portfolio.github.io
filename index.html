@@ -8,6 +8,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/responsive.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <title>Bienvenue à la maison</title>
 </head>
 
@@ -25,7 +26,7 @@
                     class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-blue-300 mr-4">
                     <img class="menuIcon" src="./IMAGES/iconmonstr-stream-2.svg" alt="" srcset="">
                 </a>
-                <a href="#responsive-header"
+                <a id="timeIcon" href="#timeApp"
                     class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-blue-300">
                     <img class="menuIcon" src="./IMAGES/iconmonstr-time-10.svg" alt="" srcset="">
                 </a>
@@ -100,7 +101,7 @@
     <section class="flex justify-center">
     
             <!-- Card 1 -->
-            <div class="projectCard flex items-center w-3/5 my-12 p-4 bgColorMain border-2 border-opacity-25 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800">
+            <div id="timeApp" class="projectCard flex items-center w-3/5 my-12 p-4 bgColorMain border-2 border-opacity-25 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800">
                 <div id="body" class="flex flex-col ml-5">
                     <h1 id="name" class="titleProject text-4xl font-semibold mb-2">Time's Out</h1>
                     <p id="job" class="w-4/5 mt-2">Time's Out est une application de type Timer , orienté freelance . C'est vous qui avez la charge de remettre votre récapitulatif a zéro ! ( Utile pour les projets , runs , etc . ). La prise de pause est aussi possible et donc décompté du temp de travail final , un total est aussi fait a chaque fois que vous ajoutez une journée au récap . Il vous est possible de recevoir votre récap par mail , de l'exporter en PDF si besoin.</p><br>
@@ -120,5 +121,6 @@
 
     
 </body>
+<script src="./JS/jQuerySmooth.js"></script>
 
 </html>

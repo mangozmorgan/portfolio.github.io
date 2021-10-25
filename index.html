@@ -12,12 +12,12 @@
     <title>Bienvenue à la maison</title>
 </head>
 
-<body class="text-white bgColorMain text-xl">
+<body class="text-white bgColorMain text-xl w-full">
     <nav class="text-xs z-20 flex flex-column w-full fixed top-0 text-white flex-wrap  bgColorMain p-6">
         
        
-        <div class=" w-full block flex-grow lg:flex lg:items-center lg:w-auto ml-10">
-            <div class="flex justify-end text-lg lg:flex-grow mr-6">
+        <div id="inNav" class=" w-full block flex-grow lg:flex lg:items-center  lg:w-auto ml-10">
+            <div class="theDiv flex justify-end text-lg lg:flex-grow mr-6">
                 <a href="#responsive-header"
                     class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-blue-300 mr-4">
                     <img class="menuIcon" src="./IMAGES/iconmonstr-school-15.svg" alt="" srcset="">
@@ -32,14 +32,14 @@
                 </a>
                 <a href="#"
                     class="ml-4 inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-blue-300 hover:text-blue-300  mt-4 lg:mt-0">Contact</a>
-                    <div class="flex items-center flex-shrink-0 text-white ml-16">
+                    <!-- <div class="flex items-center flex-shrink-0 text-white ml-16">
                         <div class="loader">
                             <div class="outer"></div>
                             <div class="middle"></div>
                             <div class="inner"></div>
                         </div>
             
-                    </div>    
+                    </div>     -->
             </div>
             <div>
             </div>
@@ -49,76 +49,95 @@
     
     <div class="bloc1 flex justify-between h-full pb-36 pt-36 mt-20  bg-white">
     <div class="miniBloc mb-20 ml-28 text-white  w-max h-max relative -top-12">
-        <h1 class="text-5xl mb-2">MORGAN PICARD</h1>
-        <h2 class="text-3xl mb-2">Développeur web / web mobile</h2>
-        <h3 class="text-2xl">FULLSTACK</h3>
+        <h1 class="nameDiv text-5xl  mb-2">MORGAN PICARD</h1>
+        <h2 class="devDiv text-3xl mb-2">Développeur web / web mobile</h2>
+        <h3 class="statutDiv text-2xl">FULLSTACK</h3>
     </div>
     <div class="textBloc mt-24  mr-24 text-white w-1/3">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem pariatur voluptates aliquid! Laboriosam, consequuntur ex illum deserunt quam nesciunt voluptas libero repudiandae quas optio minima molestiae eius ipsa ducimus eos!</div>
+        <h1 class="text-2xl">README.MD</h1>
+        <p>Développeur curieux et passionné, j'ai découvert l'univers du développement web en 2020 je me suis donc formé seul pendant un an avant d'intégrer la formation développeur Web proposée par le GRETA.J'ai donc décider d'en faire mon métier. Je suis passionné par toutes les nouvelles technologies, le web , les jeux vidéos. <p class="mt-2">N'hésitez pas a me contacter</p> </p></div>
     </div>
 
     <div id='bloc2' class=" bloc2  h-max px-20 h-1/4 flex justify-around bgColorMain relative -top-18 z-10 ">
 
-        <div class="h-max border-2 border-opacity-25 border-gray-200 bgColorMain card max-w-sm pb-4 px-8 bg-grey-900 text-white shadow-lg rounded-lg my-2 relative -top-8">
+        <div class="card1 h-max border-2 border-opacity-25 border-gray-200 bgColorMain card max-w-sm pb-4 px-8 bg-grey-900 text-white shadow-lg rounded-lg my-2 relative -top-8">
             <div class="flex justify-center md:justify-center -mt-16">
-              <img class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500" src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
+              <span class="w-20 h-20 object-cover flex justify-center items-center text-2xl rounded-full bg-purple-400 " >S</span>
             </div>
             <div>
               <h2 class="text-white text-3xl font-semibold">Skills</h2>
-              <p class="mt-2 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!</p>
+              <ul class="text-base flex justify-between mt-2">
+                  <div class="di">
+                      <li>HTML/CSS</li>
+                      <li>Javascript ❤</li>
+                      <li>PHP</li>
+
+                  </div>
+                  <div class="">
+                      <li>Node.js</li>
+                      <li>MySQL</li>
+                      <li>MongoDb</li>
+
+                  </div>
+             </ul>
             </div>
             
         </div>
 
-        <div  id="secondBloc" class=" h-max border-2 border-opacity-25 border-gray-200 bgColorMain card max-w-sm py-4  px-8  text-white  shadow-lg  rounded-lg my-2 relative -top-12 ">
+        <div  id="secondBloc" class="card1 h-max border-2 border-opacity-25 border-gray-200 bgColorMain card max-w-sm py-4  px-8  text-white  shadow-lg  rounded-lg my-2 relative -top-12 ">
             <div class="flex justify-center md:justify-center -mt-20">
-              <img class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500" src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
+                <span class="w-20 h-20 object-cover flex justify-center items-center text-2xl rounded-full bg-blue-400 " >F</span>
             </div>
             <div class="">
               <h2 class="text-white text-3xl font-semibold">Formation</h2>
-              <p class="mt-2 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!</p>
+              <p class="mt-2 text-white text-base">Formation auto didacte pendant un an + Formation GRETA développeur web/web mobile (06/03/2021 -> 02/12/2021) </p>
             </div>
             
         </div>
 
         
 
-        <div class="h-max border-2 border-opacity-25 border-gray-200 bgColorMain card max-w-sm  py-4  px-8 bg-grey-900 text-white shadow-lg rounded-lg my-2 relative -top-8">
+        <div id="cardPlus" class="card1 h-max border-2 border-opacity-25 border-gray-200 bgColorMain card max-w-sm  py-4  px-8 bg-grey-900 text-white shadow-lg rounded-lg my-2 relative -top-8">
             <div class="flex justify-center md:justify-center -mt-16">
-              <img class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500" src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
+                <span class="w-20 h-20 object-cover flex justify-center items-center text-3xl rounded-full bg-green-400 " >+</span>
             </div>
             <div>
               <h2 class="text-white text-3xl font-semibold">Petits +</h2>
-              <p class="mt-2 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!</p>
+              <ul class="mt-2 text-white text-base">
+                  <li>Photoshop</li>
+                  <li>Adobe XD</li>
+                  
+              </ul>
             </div>
             
         </div>
     </div>
     <div class="divTitle flex justify-center  my-16">
-        <h1 class="text-3xl bg-blue-400 w-max py-2 px-8 rounded-md">Mes projets</h1>
+        <h1 class="buttonProject text-3xl bg-blue-400 w-max py-2 px-8 rounded-md">Mes projets</h1>
     </div>
 
     <section class="flex justify-center">
     
             <!-- Card 1 -->
-            <div id="timeApp" class="projectCard flex items-center w-3/5 my-12 p-4 bgColorMain border-2 border-opacity-25 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800">
-                <div id="body" class="flex flex-col ml-5">
+            <div id="timeApp" class="projectCard  flex items-center w-3/5 my-12 p-4 bgColorMain border-2 border-opacity-25 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800">
+                <div id="body" class="bodyProject  flex flex-col ml-5">
                     <h1 id="name" class="titleProject text-4xl font-semibold mb-2">Time's Out</h1>
-                    <p id="job" class="w-4/5 mt-2">Time's Out est une application de type Timer , orienté freelance . C'est vous qui avez la charge de remettre votre récapitulatif a zéro ! ( Utile pour les projets , runs , etc . ). La prise de pause est aussi possible et donc décompté du temp de travail final , un total est aussi fait a chaque fois que vous ajoutez une journée au récap . Il vous est possible de recevoir votre récap par mail , de l'exporter en PDF si besoin.</p><br>
+                    <p id="job" class="paraProject w-4/5 mt-2">Time's Out est une application de type Timer , orienté freelance . C'est vous qui avez la charge de remettre votre récapitulatif a zéro ! ( Utile pour les projets , runs , etc . ). La prise de pause est aussi possible et donc décompté du temp de travail final , un total est aussi fait a chaque fois que vous ajoutez une journée au récap . Il vous est possible de recevoir votre récap par mail , de l'exporter en PDF si besoin.</p><br>
                     <p>Une application pour Windows 10 est déja disponible !</p>
                     <div class="flex flex-col mt-5">
                         
                         <a href="https://mangozmorgan.github.io/timeOut_Git/" class="ml-3 no-underline">➡ Le projet sur GitHub </a>
-                        <br>
-                        <a href="https://mangozmorgan.github.io/timeOut_Git/" class="ml-3 no-underline">➡ L'interface en ligne (front-end)</a>
+                       
+                        <a href="https://mangozmorgan.github.io/timeOut_Git/" class="ml-3 mb-4 no-underline">➡ L'interface en ligne (front-end)</a>
                     </div>
                 </div>
-                <img alt="mountain" class="w-2/5 rounded-md " src="./IMAGES/screenTime.png" />
+                <img alt="mountain" class="imgProject w-2/5 rounded-md " src="./IMAGES/screenTime.png" />
             </div>
     </section>
 
 
 
+  
     
 </body>
 <script src="./JS/jQuerySmooth.js"></script>

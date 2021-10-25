@@ -58,6 +58,7 @@
   background-image: url("../IMAGES/wallpaperBlack.png");
   background-position: center;
   background-size: cover;
+  width: auto;
   
 }
 
@@ -70,4 +71,15 @@
   
 .filterDrop{
   filter: drop-shadow(3px 3px 3px white);
+}
+
+.taches {
+  position: absolute;
+  background-image: url("../IMAGES/taches.png");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+  bottom: -24vw;
+  width: 20%;
+  height: 35%;
 }

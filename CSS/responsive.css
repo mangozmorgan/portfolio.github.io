@@ -1,7 +1,46 @@
 @media only screen and (max-width: 600px) {
+    body{
+        font-size: 0.5em !important;
+    }
     #bloc2{
+        padding: 0;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+    }
+    .card1{
+        width: 80%;
+        margin-bottom: 5vh;
+    }
+
+    nav{
+        width: 100%;
+    }
+    p{
+        font-size: 1.5em;
+    }
+    .buttonProject{
+        font-size: 2.5em;
+    }
+    .theDiv{
+        width: 100%;
+        margin-right: 0;
+        justify-content: space-around;
+    }
+
+    .cardFirst{
+        margin-bottom: 8vh ;
+    }
+
+    .cardPlus{
+        
+        margin-bottom: 0vh !important;
+    }
+
+    #inNav{
+        display: flex;
+        margin-left: 0;
+        
     }
 
     #secondBloc{
@@ -10,23 +49,55 @@
     }
 
     .projectCard{
+        width: 90%;
+        padding: 0;
         flex-direction: column-reverse;
     }
 
     .titleProject{
+        text-align: center;
         margin-top: 2vh;
     }
     .bloc1{
         flex-direction: column;
     }
     .miniBloc{
-        margin-left: 4rem;
+        width: 100%;
+        margin-left: 0;
         margin-bottom: 0;
     }
+    .paraProject,.bodyProject{
+        width: 95%;
+    }
+    .projectCard a {
+        margin-bottom: 2vh;
+        font-size: 1.5em;
+    }
 
+    .imgProject{
+        width: 100%;
+    }
+    
     .textBloc {
+        text-align: center;
        width: 80%; 
+       font-size: 1.5em;
        margin-top: 0vh;
        margin-left: 4em;
     }
+    
+    .devDiv{
+        text-align: center;
+        font-size: 2em;
+    }
+    .nameDiv{
+        text-align: center;
+        font-size: 4em;
+    }
+    .statutDiv{
+        text-align: center;
+        font-size: 2em;
+    }
+  
+    
 }

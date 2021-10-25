@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+    #bloc2{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #secondBloc{
+        margin-top: 10vh;
+        margin-bottom: 9vh;
+    }
+
+    .projectCard{
+        flex-direction: column-reverse;
+    }
+
+    .titleProject{
+        margin-top: 2vh;
+    }
+    .bloc1{
+        flex-direction: column;
+    }
+    .miniBloc{
+        margin-left: 4rem;
+        margin-bottom: 0;
+    }
+
+    .textBloc {
+       width: 80%; 
+       margin-top: 0vh;
+       margin-left: 4em;
+    }
+}

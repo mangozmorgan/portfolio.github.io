@@ -7,28 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
     <title>Test</title>
 </head>
 
 <body class="text-white bgColorMain">
-    <nav class="text-xs flex flex-column w-full items-stretch fixed top-0 text-white flex-wrap  bgColorMain p-6">
-        <div class="flex items-center flex-shrink-0 text-white ml-4">
-            <div class="loader">
-                <div class="outer"></div>
-                <div class="middle"></div>
-                <div class="inner"></div>
-            </div>
-
-        </div>
-        <div class=" block lg:hidden">
-            <button
-                class="flex items-center  px-3 py-2 border rounded  border-teal-400 hover:text-blue hover:border-white">
-                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <title class="">Menu</title>
-                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-                </svg>
-            </button>
-        </div>
+    <nav class="text-xs z-20 flex flex-column w-full fixed top-0 text-white flex-wrap  bgColorMain p-6">
+        
+       
         <div class=" w-full block flex-grow lg:flex lg:items-center lg:w-auto ml-10">
             <div class="flex justify-end text-lg lg:flex-grow mr-6">
                 <a href="#responsive-header"
@@ -43,10 +29,18 @@
                     class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-blue-300">
                     <img class="menuIcon" src="./IMAGES/iconmonstr-time-10.svg" alt="" srcset="">
                 </a>
+                <a href="#"
+                    class="ml-4 inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-blue-300 hover:text-blue-300  mt-4 lg:mt-0">Contact</a>
+                    <div class="flex items-center flex-shrink-0 text-white ml-16">
+                        <div class="loader">
+                            <div class="outer"></div>
+                            <div class="middle"></div>
+                            <div class="inner"></div>
+                        </div>
+            
+                    </div>    
             </div>
             <div>
-                <a href="#"
-                    class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-blue-300 hover:text-blue-300  mt-4 lg:mt-0">Contact</a>
             </div>
         </div>
     </nav>
@@ -62,7 +56,7 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem pariatur voluptates aliquid! Laboriosam, consequuntur ex illum deserunt quam nesciunt voluptas libero repudiandae quas optio minima molestiae eius ipsa ducimus eos!</div>
     </div>
 
-    <div class="bloc2 h-max px-20 h-1/4 flex justify-around bgColorMain relative -top-18 z-10">
+    <div id='bloc2' class=" bloc2  h-max px-20 h-1/4 flex justify-around bgColorMain relative -top-18 z-10 ">
 
         <div class="h-max border-2 border-opacity-25 border-gray-200 bgColorMain card max-w-sm pb-4 px-8 bg-grey-900 text-white shadow-lg rounded-lg my-2 relative -top-8">
             <div class="flex justify-center md:justify-center -mt-16">
@@ -75,7 +69,7 @@
             
         </div>
 
-        <div class=" h-max border-2 border-opacity-25 border-gray-200 bgColorMain card max-w-sm py-4  px-8  text-white  shadow-lg  rounded-lg my-2 relative -top-12 ">
+        <div  id="secondBloc" class=" h-max border-2 border-opacity-25 border-gray-200 bgColorMain card max-w-sm py-4  px-8  text-white  shadow-lg  rounded-lg my-2 relative -top-12 ">
             <div class="flex justify-center md:justify-center -mt-20">
               <img class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500" src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
             </div>
@@ -88,7 +82,7 @@
 
         
 
-        <div class="h-max border-2 border-opacity-25 border-gray-200 bgColorMain card max-w-sm  px-8 bg-grey-900 text-white shadow-lg rounded-lg my-2 relative -top-8">
+        <div class="h-max border-2 border-opacity-25 border-gray-200 bgColorMain card max-w-sm  py-4  px-8 bg-grey-900 text-white shadow-lg rounded-lg my-2 relative -top-8">
             <div class="flex justify-center md:justify-center -mt-16">
               <img class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500" src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
             </div>
@@ -106,9 +100,9 @@
     <section class="flex justify-center">
     
             <!-- Card 1 -->
-            <div class="flex items-center w-3/5 my-12 p-4 bgColorMain border-2 border-opacity-25 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800">
+            <div class="projectCard flex items-center w-3/5 my-12 p-4 bgColorMain border-2 border-opacity-25 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800">
                 <div id="body" class="flex flex-col ml-5">
-                    <h1 id="name" class="text-xl font-semibold mb-2">Projet 1</h1>
+                    <h1 id="name" class="titleProject text-xl font-semibold mb-2">Projet 1</h1>
                     <p id="job" class="w-4/5 mt-2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     <div class="flex mt-5">
                         
@@ -118,6 +112,8 @@
                 <img alt="mountain" class="w-45 rounded-md " src="https://picsum.photos/seed/picsum/200" />
             </div>
     </section>
+
+
 
     
 </body>

@@ -14,10 +14,36 @@
 
 <body class="text-white bgColorMain text-xl w-full">
     <nav class="text-xs z-20 flex flex-column w-full fixed top-0 text-white flex-wrap  bgColorMain p-6">
-        
+
+        <div class="modalContact w-full  absolute flex justify-center items-center">
+            <div class="modal w-2/5 border-2 border-gray-200 border-opacity-25 p-4 rounded-lg bgColorMain ">
+                <h1 class="text-5xl text-center mb-2">Contact</h1> 
+
+                <div class="flex items-center justify-center w-auto">                   
+                    <img class="mr-4" width="5%" src="./IMAGES/gmal.png" alt="Gmail Icon">
+                    <h2 class="text-3xl mt-4 mb-4"> morganpsyinfo@gmail.com</h2>
+                </div>  
+
+                 <div class="flex items-center justify-center w-auto">
+                    <img class="mb-4" width="8%" src="./IMAGES/twitterIcon.png" alt="twitter Icon" ><h2 class="text-3xl  mb-4 flex items-center"><a  href="https://twitter.com/MorganPicard2"> @PicardMorgan2 </a> </h2>
+                </div>
+
+                <div class="flex items-center justify-center w-auto">
+                    <img class="mr-4 mb-4" src="./IMAGES/linked.png" width="5%" alt="git Icon" >
+                    <h2 class="text-3xl mb-4"><a href="https://fr.linkedin.com/in/morgan-picard-207403212?trk=people-guest_people_search-card">LinkedIn</a></h2>  
+
+                </div>
+
+                <div class="flex items-center justify-center w-auto">
+                    <img class="mr-4 mb-4" src="./IMAGES/git.png" width="6%" alt="git Icon" >
+                    <h2 class="text-3xl mb-4"><a href="https://github.com/mangozmorgan/">Github</a></h2>  
+
+                </div>
+            </div>
+        </div>
        
         <div id="inNav" class=" w-full block flex-grow lg:flex lg:items-center  lg:w-auto ml-10">
-            <div class="theDiv flex justify-end text-lg lg:flex-grow mr-6">
+            <div class="theDiv flex items-center justify-end text-lg lg:flex-grow mr-6">
                 <a href="#responsive-header"
                     class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-blue-300 mr-4">
                     <img class="menuIcon" src="./IMAGES/iconmonstr-school-15.svg" alt="" srcset="">
@@ -27,11 +53,15 @@
                     <img class="menuIcon" src="./IMAGES/iconmonstr-stream-2.svg" alt="" srcset="">
                 </a>
                 <a id="timeIcon" href="#timeApp"
-                    class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-blue-300">
-                    <img class="menuIcon" src="./IMAGES/iconmonstr-time-10.svg" alt="" srcset="">
+                    class="block mr-4 mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-blue-300">
+                    <img class="menuIcon" src="./IMAGES/iconmonstr-time-10.svg" alt="time'sOutApp" srcset="">
                 </a>
-                <a href="#"
-                    class="ml-4 inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-blue-300 hover:text-blue-300  mt-4 lg:mt-0">Contact</a>
+                <a id="discordicon" href="#projectBot"
+                    class="block  mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-blue-300">
+                    <img class="menuIcon" src="./IMAGES/iconmonstr-discord-1.svg" alt="BotDiscord" srcset="">
+                </a>
+                <div id="contact"
+                    class="contactEvent ml-4 relative inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-blue-300 hover:text-blue-300 cursor-pointer  mt-4 lg:mt-0">Contact</div>
                     <!-- <div class="flex items-center flex-shrink-0 text-white ml-16">
                         <div class="loader">
                             <div class="outer"></div>
@@ -55,25 +85,25 @@
     </div>
     <div class="textBloc mt-24  mr-24 text-white w-1/3">
         <h1 class="text-2xl">README.MD</h1>
-        <p>Développeur curieux et passionné, j'ai découvert l'univers du développement web en 2020 je me suis donc formé seul pendant un an avant d'intégrer la formation développeur Web proposée par le GRETA.J'ai donc décider d'en faire mon métier. Je suis passionné par toutes les nouvelles technologies, le web , les jeux vidéos. <p class="mt-2">N'hésitez pas a me contacter</p> </p></div>
+        <p>Développeur curieux et passionné, j'ai découvert l'univers du développement web en 2020 je me suis donc formé seul pendant un an avant d'intégrer la formation développeur Web proposée par le GRETA.J'ai donc décider d'en faire mon métier. Je suis passionné par toutes les nouvelles technologies, le web , les jeux vidéos. <p class="contactEvent mt-2 cursor-pointer">N'hésitez pas a me contacter <span></span></p> </p></div>
     </div>
 
     <div id='bloc2' class=" bloc2  h-max px-20 h-1/4 flex justify-around bgColorMain relative -top-18 z-10 ">
 
-        <div class="card1 h-max border-2 border-opacity-25 border-gray-200 bgColorMain card max-w-sm pb-4 px-8 bg-grey-900 text-white shadow-lg rounded-lg my-2 relative -top-8">
+        <div class="card1  h-max border-2 border-opacity-25 border-gray-200 bgColorMain card max-w-sm pb-4 px-12 bg-grey-900 text-white shadow-lg rounded-lg my-2 relative -top-8">
             <div class="flex justify-center md:justify-center -mt-16">
               <span class="w-20 h-20 object-cover flex justify-center items-center text-2xl rounded-full bg-purple-400 " >S</span>
             </div>
             <div>
               <h2 class="text-white text-3xl font-semibold">Skills</h2>
-              <ul class="text-base flex justify-between mt-2">
+              <ul class=" text-xl flex justify-between mt-2">
                   <div class="di">
                       <li>HTML/CSS</li>
                       <li>Javascript ❤</li>
                       <li>PHP</li>
 
                   </div>
-                  <div class="">
+                  <div class="ml-10">
                       <li>Node.js</li>
                       <li>MySQL</li>
                       <li>MongoDb</li>
@@ -84,26 +114,31 @@
             
         </div>
 
-        <div  id="secondBloc" class="card1 h-max border-2 border-opacity-25 border-gray-200 bgColorMain card max-w-sm py-4  px-8  text-white  shadow-lg  rounded-lg my-2 relative -top-12 ">
+        <div  id="secondBloc" class="card1 h-max border-2 border-opacity-25 border-gray-200 bgColorMain card  py-4  px-12  text-white  shadow-lg  rounded-lg my-2 relative -top-12 ">
             <div class="flex justify-center md:justify-center -mt-20">
                 <span class="w-20 h-20 object-cover flex justify-center items-center text-2xl rounded-full bg-blue-400 " >F</span>
             </div>
             <div class="">
               <h2 class="text-white text-3xl font-semibold">Formation</h2>
-              <p class="mt-2 text-white text-base">Formation auto didacte pendant un an + Formation GRETA développeur web/web mobile (06/03/2021 -> 02/12/2021) </p>
+              <ul class="mt-2 text-white text-base text-xl">
+                  <li>Formation auto didacte pendant un an </li>
+                  <li> GRETA développeur web/web mobile (06/03/2021 -> 02/12/2021)</li>
+                  <li>En formation perpétuelle</li>
+              </ul>
+              
             </div>
             
         </div>
 
         
 
-        <div id="cardPlus" class="card1 h-max border-2 border-opacity-25 border-gray-200 bgColorMain card max-w-sm  py-4  px-8 bg-grey-900 text-white shadow-lg rounded-lg my-2 relative -top-8">
+        <div id="cardPlus" class="card1 h-max border-2 border-opacity-25 border-gray-200 bgColorMain card max-w-sm  py-4  px-12 bg-grey-900 text-white shadow-lg rounded-lg my-2 relative -top-8">
             <div class="flex justify-center md:justify-center -mt-16">
                 <span class="w-20 h-20 object-cover flex justify-center items-center text-3xl rounded-full bg-green-400 " >+</span>
             </div>
             <div>
               <h2 class="text-white text-3xl font-semibold">Petits +</h2>
-              <ul class="mt-2 text-white text-base">
+              <ul class="mt-2 text-white  text-xl">
                   <li>Photoshop</li>
                   <li>Adobe XD</li>
                   
@@ -131,22 +166,22 @@
                         <a href="https://mangozmorgan.github.io/timeOut_Git/" class="ml-3 mb-4 no-underline">➡ L'interface en ligne (front-end)</a>
                     </div>
                 </div>
-                <img alt="mountain" class="imgProject w-2/5 rounded-md " src="./IMAGES/screenTime.png" />
+                <img alt="mountain" class="imgProject  w-2/5 rounded-md " src="./IMAGES/screenTime.png" />
             </div>
             <!-- Card  -->
-            <div id="timeApp" class="projectCard  flex items-center w-4/5 my-12 p-4 bgColorMain border-2 border-opacity-25 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800">
+            <div  class="projectCard  flex items-center w-4/5 my-12 p-4 bgColorMain border-2 border-opacity-25 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800">
                 <div id="body" class="bodyProject  flex flex-col ml-5">
                     <h1 id="name" class="titleProject text-4xl font-semibold mb-2">Rick The Bot</h1>
                     <p id="job" class="paraProject w-4/5 mt-2">Notre formation échangeant sur Discord , j'ai eu l'idée de créer un petit bot pour nous aider quotidiennement dans ce " doux " apprentissage qu' est le developpement web 💻 / web mobile 📱 et appronfondir un peu mes connaissance avec javascript et Node.js.</p><p>Toute ressemblance avec un personnageconnu est fortuite ! 😁</p><br>
                     
                     <div class="flex flex-col mt-5">
                         
-                        <a href="https://github.com/mangozmorgan/RickTheBot" class="ml-3 no-underline">➡ Le projet sur GitHub </a>
+                        <a id="projectBot" href="https://github.com/mangozmorgan/RickTheBot" class="ml-3 no-underline">➡ Le projet sur GitHub </a>
                        
                         
                     </div>
                 </div>
-                <img alt="mountain" class="imgProject w-1/12 rounded-md " src="./IMAGES/rick1.png" />
+                <img alt="rick" class="imgProject rick w-1/12 rounded-md " src="./IMAGES/rick1.png" />
             </div>
     </section>
 
@@ -156,5 +191,6 @@
     
 </body>
 <script src="./JS/jQuerySmooth.js"></script>
+<script src="./JS/modalContact.js"></script>
 
 </html>

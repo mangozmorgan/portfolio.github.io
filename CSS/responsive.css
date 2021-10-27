@@ -98,6 +98,19 @@
         text-align: center;
         font-size: 2em;
     }
+    .modal{
+        width: max-content;
+        font-size: 1em !important;
+    }
+    .modal h1{
+        font-size: 1em;
+    }
+    .modal h2{
+        font-size: 0.7em;
+    }
+    .rick{
+        width: 20%;
+    }
   
     
 }

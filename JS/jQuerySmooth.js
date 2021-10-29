@@ -20,3 +20,10 @@ $("#dedIcon").on('click', function (event) {
         scrollTop: $($.attr(this, 'href')).offset().top
     }, 500);
 });
+$("#ownIcon").on('click', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+});
